@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* --------------------------------------------------------------------
+  START - CSS Reset																	
+ -------------------------------------------------------------------- */
+/* RESET */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, font, img, ins, kbd, q, samp, small, strong, sub, sup, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, header, nav, article, aside, footer, hgroup, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	text-decoration: none;
+	vertical-align: top;
+}
+:focus, :active {
+	outline: 0;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote:before, blockquote:after {
+	content: "";
+}
+blockquote {
+	quotes: "" "";
+}
+header, nav, article, aside, footer, hgroup, section {
+	display: block;
+}
+.clear {
+	clear: both;
+	font-size: 1px;
+	height: 0;
+	margin: 0 auto;
+	width: 100%;
+}
+/* --------------------------------------------------------------------
+  END - CSS Reset																	
+ -------------------------------------------------------------------- */
+/*html, body {
+    background: url(../images/icons/bg1.png) repeat-x  scroll 0 0 #000000;
+}*/
+body {
+	font: 100% Arial, Helvetica, sans-serif;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	 background: url(../images/icons/bg1.png) repeat-x  scroll 0 0 #000000;
+	/*background:  #666666;*/ /* for non-css3 browsers #343434*/
+	/*background: -webkit-gradient(linear,left bottom, left top, color-stop(0.34, #333333), color-stop(0.75, #666666), color-stop(1, #999999));
+	background: -moz-linear-gradient(center bottom, #333333 34%, #666666 75%, #999999 100%) repeat-x scroll 0 0 #666666;
+*/
+	}
+h1 {
+	width:475px;
+	font-size:25px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+	width:475px;
+	font-size:14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style:italic;
+}
+
+h3 {
+	font-size:12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+p {
+	font-size:12px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom:20px;
+	line-height:18px;
+}
+#container {
+	width:955px;  /* this will create a container 80% of the browser width */
+	height:auto;
+	margin: 50px auto;
+	text-align: center; /* this overrides the text-align: center on the body element. */
+	border-radius: 2px 2px 2px 2px;
+}
+header {
+	height:50px;
+	width:955px;
+	margin:0px auto;
+	clear:both;
+}
+hgroup {
+	width:auto;
+}
+hgroup h2 {
+	margin:0px 0px 20px 0px;
+}
+nav {
+	height:20px;
+	width:500px;
+	text-align:left;
+	float:left;
+}
+.navFooter {
+	margin-top:20px;
+	height:20px;
+	width:500px;
+	text-align:left;
+	float:left;
+}
+nav ul {
+	padding: 0px 0px 0px 0px;
+	margin:0px auto;
+	text-align:left;
+}
+nav li {
+	display:inline;
+	vertical-align: top;
+}
+nav a {
+	display:inline-block;
+	vertical-align: top;
+	padding: 4px 20px 0px 0px;
+	margin:0px 0px 0px 0px;
+	height:21px;
+	color:#FFFFFF;
+	font-size:14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+nav a:hover {
+	color: #FFCC00;/*background: rgba(153, 153, 153, 0.5);*/
+}
+article {
+	width:895px;  /* this will create a container 80% of the browser width */
+	height:auto;
+	min-height:422px;
+	margin: 0px auto;
+	padding:30px;
+	background:  #fff;
+	border-radius: 2px 2px 2px 2px;
+	border:#CC9933 2px solid;
+}
+section {
+	height:auto;
+}
+footer {
+	height:40px;
+	width:955px;
+	margin:0px auto;
+	clear:both;
+}
+.pageLogo {
+	float:left;
+	position:relative;
+	top:0px;
+}
+
+.comingSoonLogo {
+	float:right;
+	position:relative;
+	top:20px;
+}
+.mainContentPosition {
+	width:445px;
+	margin:0px 0px 0px 0px;
+}
+.mainImageFloat {
+	float:right;
+}
+.socialNet {
+	height: 25px;
+	margin: 20px 0;
+	width: 400px;
+}
+.socialNet li {
+	display:inline;
+	float:left;
+	margin: 0px 5px 0px 0px;
+}
+
+.tabContentPosition {
+	width:auto;
+	margin:0px 0px 0px 0px;
+}
+
+#tabs {
+	float:left;
+	width:180px;
+	height:auto;
+}
+
+#tabs li a {
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    font-style:italic;
+    text-align: left;
+    text-decoration: none;
+}
+
+#tabs li a:hover{
+    color: #FFCC00;
+    text-decoration: underline;
+}
+
+#tabContent {
+    float: right;
+    width: 650px;
+}
+
+#tabContent a {
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    font-style:italic;
+}
+
+#tabContent a:hover{
+    color: #FFCC00;
+    text-decoration: underline;
+}
+
+#tabContent h2 {
+    margin: 0 0 20px;
+     font-weight: bold;
+}
+
+#tabContent h3 {
+     font-weight: bold;
+     font-style:italic;
+}
+
+.tabContentImageFloat {
+	float:right;
+	margin-left:40px;
+}
+
+.bigBenSkull {
+	width: 872px;
+	margin: 0px auto;
+	text-align:center;
+	}

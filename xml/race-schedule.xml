@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <race>
+    <Date>11.9.11</Date>
+    <Event>MFG Race</Event>
+    <Venue>Seattle, WA</Venue>
+    <Ctry>USA</Ctry>
+    <Class>NA</Class>
+  </race>
+  <race>
+    <Date>14.9.11</Date>
+    <Event>CrossVegas</Event>
+    <Venue>Las Vegas, Nevada</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C1</Class>
+  </race>
+  <race>
+    <Date>17.9.11</Date>
+    <Event>StarCrossed</Event>
+    <Venue>Redmond</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+  <race>
+    <Date>18.9.11</Date>
+    <Event>Rad Racing GP</Event>
+    <Venue>Issaquah, WA</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+  <race>
+    <Date>21.9.11</Date>
+    <Event>Cross after Dark</Event>
+    <Venue>St. Louis, MO</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+  <race>
+    <Date>24.9.11</Date>
+    <Event>USGP of Cyclocross Planet Bike Cup</Event>
+    <Venue>Sun Prairie, WI</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C1</Class>
+  </race>
+  <race>
+    <Date>25.9.11</Date>
+    <Event>USGP of Cyclocross Planet Bike Cup</Event>
+    <Venue>Sun Prairie, WI</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+  <race>
+    <Date>1.10.11</Date>
+    <Event>Gran Prix of Gloucester 1</Event>
+    <Venue>Gloucester, MA</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C1</Class>
+  </race>
+  <race>
+    <Date>2.10.11</Date>
+    <Event>Gran Prix of Gloucester 2</Event>
+    <Venue>Gloucester, MA</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+  <race>
+    <Date>8.10.11</Date>
+    <Event>USGP of Cyclocross Fort Collins Cup (was Mercer Cup)</Event>
+    <Venue>Fort Collins, CO</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C1</Class>
+  </race>
+  <race>
+    <Date>9.10.11</Date>
+    <Event>USGP of Cyclocross Fort Collins Cup (was Mercer Cup)</Event>
+    <Venue>Fort Collins, CO</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+  <race>
+    <Date>15.10.11</Date>
+    <Event>Spooky Cross</Event>
+    <Venue>Irvine, CA</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+  <race>
+    <Date>16.10.11</Date>
+    <Event>Spooky Cross</Event>
+    <Venue>Irvine, CA</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+  <race>
+    <Date>BEN GOES BACK TO BELGIUM</Date>
+    <Event></Event>
+    <Venue></Venue>
+    <Ctry></Ctry>
+    <Class></Class>
+  </race>
+  <race>
+    <Date>29.10.11</Date>
+    <Event>Colorado Cross Classic</Event>
+    <Venue>Boulder</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+  <race>
+    <Date>30.10.11</Date>
+    <Event>Victory Circle Graphix Boulder Cup</Event>
+    <Venue>Boulder, CO</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C1</Class>
+  </race>
+  <race>
+    <Date>4.11.11</Date>
+    <Event>Darkhorse Cylo-Stampede</Event>
+    <Venue>Covington, KY</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+  <race>
+    <Date>5.11.11</Date>
+    <Event>Java Johnny's - Lionhearts International</Event>
+    <Venue>Middletown, Ohio</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+  <race>
+    <Date>6.11.11</Date>
+    <Event>Harbin Park International</Event>
+    <Venue>Cincinnati, Ohio</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C1</Class>
+  </race>
+  <race>
+    <Date>12.11.11</Date>
+    <Event>USGP of Cyclocross Derby City Cup</Event>
+    <Venue>Louisville, KY</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C1</Class>
+  </race>
+  <race>
+    <Date>13.11.11</Date>
+    <Event>USGP of Cyclocross Derby City Cup</Event>
+    <Venue>Louisville, KY</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+  <race>
+    <Date>19.11.11</Date>
+    <Event>NC Gran Prix 1</Event>
+    <Venue>Hendersonville, NC</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+  <race>
+    <Date>20.11.11</Date>
+    <Event>NC Gran Prix 2</Event>
+    <Venue>Hendersonville, NC</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+  <race>
+    <Date>25.11.11</Date>
+    <Event>Jingle Cross Rock - Rock 1</Event>
+    <Venue>Iowa City, Iowa</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+  <race>
+    <Date>26.11.11</Date>
+    <Event>Jingle Cross Rock - Rock 2</Event>
+    <Venue>Iowa City, Iowa</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+  <race>
+    <Date>27.11.11</Date>
+    <Event>Jingle Cross Rock - Rock 3</Event>
+    <Venue>Iowa City, Iowa</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C1</Class>
+  </race>
+  <race>
+    <Date>3.12.11</Date>
+    <Event>Cyclocross LA</Event>
+    <Venue>Los Angeles, CA</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+  <race>
+    <Date>4.12.11</Date>
+    <Event>Cyclocross LA</Event>
+    <Venue>Los Angeles, CA</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+  <race>
+    <Date>10.12.11</Date>
+    <Event>USGP of Cyclocross Portland Cup</Event>
+    <Venue>Bend, OR</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C1</Class>
+  </race>
+  <race>
+    <Date>11.12.11</Date>
+    <Event>USGP of Cyclocross Portland, OR</Event>
+    <Venue>Bend, OR</Venue>
+    <Ctry>USA</Ctry>
+    <Class>C2</Class>
+  </race>
+</schedule>

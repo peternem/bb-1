@@ -1,0 +1,429 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Embed Myriad Regular font IE 6-8*/
+@font-face {
+ font-family: OSPDin;
+ font-weight: normal;
+ src: url('din-blk-webfont.eot');
+}
+
+/* Embed Myriad Regular font FF, Ch, Sf, Op*/
+@font-face {
+ font-family: OSPDin;
+ font-weight: normal;
+ src: url('din-blk-webfont.ttf') format("truetype");
+}
+/* --------------------------------------------------------------------
+  START - CSS Reset																	
+ -------------------------------------------------------------------- */
+/* RESET */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, font, img, ins, kbd, q, samp, small, strong, sub, sup, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, header, nav, article, aside, footer, hgroup, section {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	text-decoration: none;
+	vertical-align: top;
+}
+:focus, :active {
+	outline: 0;
+}
+/*ol, ul {
+	list-style: none;
+	
+}
+*/
+header, nav, article, aside, footer, hgroup, section {
+	display: block;
+}
+.clear {
+	clear: both;
+	font-size: 1px;
+	height: 0;
+	margin: 0 auto;
+	width: 100%;
+}
+/* --------------------------------------------------------------------
+  END - CSS Reset																	
+ -------------------------------------------------------------------- */
+/*html, body {
+    background: url(../images/icons/bg1.png) repeat-x  scroll 0 0 #000000;
+}*/
+body {
+	font: 100% Arial, Helvetica, sans-serif;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	background: url(../images/icons/bg1.png) repeat-x scroll 0 0 #000000;/*background:  #666666;*/ /* for non-css3 browsers #343434*//*background: -webkit-gradient(linear,left bottom, left top, color-stop(0.34, #333333), color-stop(0.75, #666666), color-stop(1, #999999));
+	background: -moz-linear-gradient(center bottom, #333333 34%, #666666 75%, #999999 100%) repeat-x scroll 0 0 #666666;
+*/
+	}
+h1 {
+	width:475px;
+	font-size:25px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+	width:475px;
+	font-size:14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style:italic;
+}
+h3 {
+	font-size:12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+p {
+	font-size:12px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom:20px;
+	line-height:18px;
+}
+#container {
+	width:955px;  /* this will create a container 80% of the browser width */
+	height:auto;
+	margin: 50px auto;
+	text-align: center; /* this overrides the text-align: center on the body element. */
+	border-radius: 2px 2px 2px 2px;
+}
+header {
+	height:114px;
+	width:955px;
+	margin:0px auto;
+	clear:both;
+}
+hgroup {
+	width:auto;
+}
+hgroup h2 {
+	margin:0px 0px 20px 0px;
+}
+nav {
+	height:20px;
+	width:500px;
+	text-align:left;
+	float:right;
+}
+.navFooter {
+	margin-top:20px;
+	height:20px;
+	width:500px;
+	text-align:left;
+	float:left;
+}
+nav ul {
+	padding: 0px 0px 0px 0px;
+	margin:75px auto;
+	text-align:right;
+}
+nav li {
+	display:inline;
+	vertical-align: top;
+}
+nav a {
+	display:inline-block;
+	vertical-align: top;
+	padding: 4px 00px 0px 20px;
+	margin:0px 0px 0px 0px;
+	height:21px;
+	color:#FFFFFF;
+	font-size:14px;
+	font-family: 'OSPDin', Arial, Helvetica, sans-serif;/*font-family: Arial, Helvetica, sans-serif;*/
+}
+nav a:hover {
+	color: #FF9900;/*background: rgba(153, 153, 153, 0.5);*/
+}
+article {
+	width:895px;  /* this will create a container 80% of the browser width */
+	height:auto;
+	min-height:422px;
+	margin: 0px auto;
+	padding:30px;
+	background:  #fff;
+	border-radius: 2px 2px 2px 2px;
+	border:#CC9933 2px solid;
+}
+section {
+	height:auto;
+}
+footer {
+	height:autopx;
+	width:957px;
+	margin:25px auto 50px auto;
+	clear:both;
+}
+.pageLogo {
+	float:left;
+	position:relative;
+	top:0px;
+}
+.comingSoonLogo {
+	float:right;
+	position:relative;
+	top:20px;
+}
+.mainContentPosition {
+	width:445px;
+	margin:0px 0px 0px 0px;
+	text-align:left;
+}
+.mainContentPositionAbout {
+	width:445px;
+	margin:0px 0px 0px 0px;
+	text-align:left;
+}
+.mainContentSponsorPosition {
+	width:635px;
+	margin:0px 0px 0px 0px;
+	text-align:left;
+}
+.mainImageCollageFloat {
+	float:right;
+	width:417px;
+	height: auto;
+}
+.mainImageCollageFloat1 {
+	float:right;
+	width:200px;
+	height: 420px;
+	margin:0px 0px 0px 20px;
+}
+
+.mainImageCollageFloat2 {
+	float:right;
+	width:210px;
+	height: auto;
+}
+.mainImageSponsorFloat {
+	float:right;
+	width:210px;
+	height: auto;
+}
+.imageFloatUpperLeft {
+	float:left;
+}
+.imageFloatUpperRight {
+	float:right;
+	clear:right;
+}
+.imageFloatLowerLeft {
+	float:left;
+	margin-top: 20px;
+}
+.imageFloatLowerRight {
+	float:right;
+	clear:right;
+	margin-top: 20px;
+}
+.imageCalFloatUpperRight {
+	float:right;
+	clear:right;
+}
+.imageCalFloatLowerLeft {
+	margin-top:20px;
+	float:right;
+	clear:right;
+}
+.socialNet {
+	height: 25px;
+	margin: 20px 0;
+	width: 400px;
+}
+.socialNet li {
+	display:inline;
+	float:left;
+	margin: 0px 5px 0px 0px;
+}
+.tabContentPosition {
+	width:auto;
+	margin:0px 0px 0px 0px;
+}
+.bigBenSkull {
+	width: 862px;
+	margin: 0px auto;
+	text-align:center;
+}
+.sponsors1 {
+	width:550px;
+	height:112px;
+	margin:0px 0px 0px 0px;
+}
+.sponsors2 {
+	width:550px;
+	height:65px;
+	margin:60px 0px 0px 0px;
+}
+.sponsors3 {
+	width:600px;
+	height:65px;
+	margin:60px 0px 0px 0px;
+}
+.sponsorsLogoLh {
+	float:left;
+}
+.sponsorsLogoMid {
+	float:left;
+	margin:0px 0px 0px 90px;
+}
+.sponsorsLogoRh {
+	float:right;
+	margin: 0px 0px 0px 30px;
+}
+.sponsors2 ul {
+	margin:0px 0px 20px 0px;
+	height:75px;
+}
+.sponsors2 li {
+	display:inline;
+	float: left;
+}
+.sponsors2 li a {
+	display:inline-block;
+	margin: 0px 10px 0px 0px;
+}
+.sponsors3 ul {
+	margin:0px 0px 20px 0px;
+	height:75px;
+}
+.sponsors3 li {
+	display:inline;
+	float: left;
+}
+.sponsors3 li a {
+	display:inline-block;
+	margin: 0px 20px 0px 0px;
+}
+/* --------------------------------------------------------------------
+  START - Twitter Feed CSS																	
+ -------------------------------------------------------------------- */
+footer section {
+	float: left;
+	margin: 0px 0px 0px 35px;
+	background-color:#0a0a0a;
+	border:#191919 2px solid;
+	padding:10px 30px 30px 30px;
+	text-align:center;
+	vertical-align:top;
+}
+#twitfeed {
+	width: 563px;
+}
+#flickrFeed {
+	width: 231px;
+}
+footer section:first-child {
+	margin-left: 0;
+}
+footer section h1 {
+	color:#AFBD21;
+	font-size:14px;
+	font-family: 'OSPDin', Arial, Helvetica, sans-serif;
+	text-decoration:underline;
+	text-align:left;
+	margin-bottom:25px;
+	width:auto;
+}
+.twitfeed {
+}
+#twitfeed ul {
+	color:#fff;
+	font-size:11px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:left;
+}
+/* --------------------------------------------------------------------
+  END - Twitter Feed CSS																	
+ -------------------------------------------------------------------- */
+ 
+
+.socialFeeds ul {
+}
+.socialFeeds li {
+	text-align:left;
+	margin:0px 0px 10px 0px;
+}
+.socialFeeds li a {
+	font-style:italic;
+	font-size:12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#CCCCCC;
+}
+.socialFeeds li a:hover {
+	color: #FF9900;
+}
+.socialIcon {
+	margin-right: 10px;
+}
+.source {
+	margin-left:10px;
+	font-style:italic;
+	font-weight:bold;
+	font-size:10px;
+}
+.twit_at {
+	font-style:italic;
+	font-weight:bold;
+	color: #F3F3F4;
+	margin-right:5px;
+}
+.twitMsg {
+	font-style:italic;
+	font-weight:bold;
+	color:#CCCCCC;
+}
+.twit_at:hover {
+	text-decoration:underline;
+}
+.pubDate {
+	font-style:italic;
+	font-weight:bold;
+	font-size:10px;
+	color:#FF6600;
+}
+.pubDate:hover {
+	text-decoration:underline;
+}
+/* --------------------------------------------------------------------
+  START - XML Race schedule ---- calendar.php																	
+ -------------------------------------------------------------------- */
+
+#XMLDataTable {
+	border: 1px solid #c1c1c1;
+	white-space:normal;
+	border-collapse:collapse;
+	margin: 10px 0px 10px 0px;
+	width:650px;
+	float:left;
+}
+#XMLDataTable th {
+	border: 1px solid #c1c1c1;
+	background-color: #eaeaea;
+	color: #000;
+	font-size: 0.75em;
+	font-weight:normal;
+	font-style:italic;
+	text-align:center;
+	padding:3px 0px 3px 0px;
+}
+#XMLDataTable td {
+	border: 1px solid #c1c1c1;
+	white-space:nowrap;
+	font-size: 0.65em;
+	text-align:center;
+	padding:3px 0px 3px 0px;
+}
+
+.video {
+	margin-top:83px;
+	}
+.videoFrame {
+	margin-top:20px;
+}
